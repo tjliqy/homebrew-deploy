@@ -1,0 +1,53 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyVariantrule",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "635b3f9adb"
+	},
+	"variantrule": [
+		{
+			"ENG_name": "Adjusted Ability Usages",
+			"name": "调整后的属性使用",
+			"source": "GiddyVariantrule",
+			"entries": [
+				"以下改动旨在平衡各种属性值之间的强度差异：",
+				{
+					"type": "list",
+					"items": [
+						"当进行先攻检定时，你可以进行一次智力检定而非敏捷检定。",
+						"在确定由穿着护甲、{@spell 法师护甲}法术或{@psionic 原力精通|UATheMysticClass|惰性护甲}灵能效果提供的护甲等级时，你可以使用你的智力调整值代替你的敏捷调整值。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Single-Class Multiclassing",
+			"name": "单职业兼职",
+			"source": "GiddyVariantrule",
+			"entries": [
+				"你可以将已经拥有等级的职业进行兼职，以获取其他原型或扩展你的多功能性，但代价是牺牲获得更高等级特性的机会。你可以获得任意职业特性的多个副本，这些副本独立运作。在计算这些特性的等级时，将每个职业实例视为独立的。例如，一个法师2级/法师3级同时拥有2级法师和3级法师的奥术回想特性。他们可以每日各使用一次这些独立特性，并且在确定恢复的法术数量时，他们的法师等级分别计为2级和3级。"
+			]
+		},
+		{
+			"ENG_name": "Split Hit Dice",
+			"name": "分裂命中骰子",
+			"source": "GiddyVariantrule",
+			"entries": [
+				"当你因任何原因掷生命值骰时，你可以选择掷两个面值为原骰子一半的骰子，并使用其总值。例如，如果你选择在牧师升级时掷生命值，你可以选择掷2d4而不是1d8。这个变化的主要效果是让掷骰结果等同于取四舍五入的\"中等\"值，而不是少半点的生命值。"
+			]
+		}
+	]
+}

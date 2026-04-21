@@ -1,0 +1,31 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyAction",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.1",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "0ef9e875fb"
+	},
+	"action": [
+		{
+			"ENG_name": "Extinguish",
+			"name": "熄灭",
+			"source": "GiddyAction",
+			"page": 0,
+			"entries": [
+				"当你执行火灭灯熄动作时，你可以为你5尺内或徒手打击触及范围内（取较远者）的一个生物结束{@condition 着火|眩晕状态}状态。"
+			]
+		}
+	]
+}

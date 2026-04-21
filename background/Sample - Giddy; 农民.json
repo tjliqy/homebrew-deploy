@@ -1,0 +1,266 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyBackground",
+				"abbreviation": "Brew",
+				"color": "ff00ff",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "591cb3587a"
+	},
+	"background": [
+		{
+			"ENG_name": "Farmer",
+			"name": "农民",
+			"source": "GiddyBackground",
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"animal handling": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true,
+					"vehicles (land)": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"special": "手斧"
+						}
+					],
+					"b": [
+						{
+							"special": "镰刀"
+						}
+					]
+				},
+				{
+					"_": [
+						{
+							"special": "普通服装"
+						},
+						{
+							"special": "小包",
+							"containsValue": 500
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Skill Proficiencies",
+							"name": "技能熟练",
+							"type": "item",
+							"entry": "{@skill 运动}, {@skill 驯兽}"
+						},
+						{
+							"ENG_name": "Tool Proficiencies",
+							"name": "工具熟练项",
+							"type": "item",
+							"entry": "草药工具，载具（大地）"
+						},
+						{
+							"ENG_name": "Equipment",
+							"name": "装备",
+							"type": "item",
+							"entry": "一把手斧或镰刀、一套普通服装和一个装有5 gp的小包"
+						}
+					]
+				},
+				{
+					"ENG_name": "Feature: Plowshares to Swords",
+					"name": "特性：化犁为剑",
+					"type": "entries",
+					"entries": [
+						"你是一个简单、勤劳的个体，在这个疯狂的世界里努力维持生计。某个（可能是抽象的）权威人物夺走了你的一切，你已经受够了。普通民众同情你的困境，你可以在他们中间找到一个躲藏、休息或恢复的地点，除非你表现出对他们构成危险。他们会保护你免受法律或任何其他搜寻者的伤害，尽管他们不会为你冒生命危险。"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"ENG_name": "Suggested Characteristics",
+					"name": "建议人物特征",
+					"type": "entries",
+					"entries": [
+						"农民是普通人之一，无论好坏。大多数农民将他们卑微的出身视为一种美德，而不是缺点，并且他们的家乡社区对他们来说仍然非常重要。",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"特点"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"我以人的行为而非言辞对其做判断。"
+								],
+								[
+									"2",
+									"我总是会去帮助遇到麻烦的人。"
+								],
+								[
+									"3",
+									"我在专注于某件事时，会排除一切障碍坚持到底。"
+								],
+								[
+									"4",
+									"我对公平有着强烈的执着，并且总是试图为争端寻找最公正的解决方案。"
+								],
+								[
+									"5",
+									"我信任自己的能力，并且会做任何力所能及的事以获得他人的信任。"
+								],
+								[
+									"6",
+									"其他人负责思考。我只负责行动。"
+								],
+								[
+									"7",
+									"我会错用长单词以试图显得更聪明些。"
+								],
+								[
+									"8",
+									"我时常感到厌烦。我的天命之旅什么时候才有进展呢？"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"理想"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"尊敬Respect。民众应该受到体面而尊敬的对待。（善良）"
+								],
+								[
+									"2",
+									"公平Fairness。没人可以在法律中得到优待，并且没人能凌驾于法律之上。（守序）"
+								],
+								[
+									"3",
+									"自由Freedom。压迫人民的暴君绝不能被容忍。（混乱）"
+								],
+								[
+									"4",
+									"力量Might。如果我变得强大，我就可以理所当然的随心所欲。（邪恶）"
+								],
+								[
+									"5",
+									"诚实Sincerity。假装自己是另一种人不会有什么好处。（中立）"
+								],
+								[
+									"6",
+									"命运Destiny。任何人或事情都无法让我偏离我那崇高的感召。（任意）"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"牵挂"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"我有一个家庭，但我现在不知道他们身处何处。我希望终有一日能够再次见到他们。"
+								],
+								[
+									"2",
+									"我劳作于这片土地，我热爱这片土地，而且我将保卫这片土地。"
+								],
+								[
+									"3",
+									"一名傲慢的贵族曾经死命痛打了我一顿，故而我将报复任何我遇到的恃强凌弱者。"
+								],
+								[
+									"4",
+									"我的工具是我以往生活的符号，因而我随身携带着它们以便永远记住我的根。"
+								],
+								[
+									"5",
+									"我保护那些无力自我保护的人。"
+								],
+								[
+									"6",
+									"我希望我的青梅竹马能伴着我一起追寻我的命运。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"缺点"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"统治我故乡的暴君会一直追杀我。"
+								],
+								[
+									"2",
+									"我深信命运的征兆，以至于看不清自己的不足或是失败的可能性。"
+								],
+								[
+									"3",
+									"自幼认识我的人知道我羞耻的秘密，所以我再也不能回家了。"
+								],
+								[
+									"4",
+									"我对一些城里的恶习没有抵抗力，尤其是酗酒。"
+								],
+								[
+									"5",
+									"我暗地里会觉得，如果我是那个统领这片土地的暴君所有事情肯定会更好。"
+								],
+								[
+									"6",
+									"我难以信任我的盟友。"
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,234 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyCreature",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1759251292,
+		"_dateLastModifiedHash": "910b527634"
+	},
+	"monster": [
+		{
+			"ENG_name": "Oaken Bolter",
+			"name": "橡木投射机",
+			"source": "GiddyCreature",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item 胸甲|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 102,
+				"formula": "12d10 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 15,
+			"int": 3,
+			"wis": 10,
+			"cha": 1,
+			"senses": [
+				"黑暗视觉 60 尺"
+			],
+			"passive": 10,
+			"immune": [
+				"毒素",
+				{
+					"immune": [
+						"钝击",
+						"穿刺",
+						"斩击"
+					],
+					"note": "非精金武器且非魔法攻击",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"魅惑",
+				"力竭",
+				"恐慌",
+				"麻痹",
+				"石化",
+				"中毒"
+			],
+			"languages": [
+				"理解侏儒语但无法说话"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"ENG_name": "Immutable Form",
+					"name": "不变形态",
+					"entries": [
+						"橡木投射机免疫任何会改变其形态的法术或效果。"
+					]
+				},
+				{
+					"ENG_name": "Magic Resistance",
+					"name": "魔法抗性",
+					"entries": [
+						"橡木弩车对法术和其他魔法效果的豁免检定有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Fleshcutter",
+					"name": "血肉切割机",
+					"entries": [
+						"{@atk rw} {@hit +6} 命中，射程 100/400 尺，一个生物。{@h}15（{@damage 2d10 + 4}）穿刺伤害。"
+					]
+				},
+				{
+					"ENG_name": "Armor-piercing Bolt",
+					"name": "护甲穿刺弩失",
+					"entries": [
+						"橡木投射机向100尺内的一个目标发射一枚重型飞弹。目标必须成功通过{@dc 14}的敏捷豁免检定否则受到9（{@damage 1d10 + 4}）穿刺伤害。"
+					]
+				},
+				{
+					"ENG_name": "Harpoon",
+					"name": "鱼叉",
+					"entries": [
+						"{@atk rw} {@hit +6} 命中，射程 50/200 尺，单一目标。{@h}9（{@damage 1d10 + 4}）穿刺伤害且目标陷入{@condition 受擒}（逃脱{@dc 11}）。以此方式{@condition 受擒}时，生物的速度不会缩小，但只能朝靠近橡木投射机的方向移动。尝试从擒抱中逃脱的生物会受到额外 5（{@damage 1d10}）挥砍伤害，无论逃脱尝试成功与否。橡木投射机可用附赠动作将{@condition 受擒}生物拉近 20 尺。橡木投射机一次只能擒抱一个生物。"
+					]
+				},
+				{
+					"ENG_name": "Explosive Bolt {@recharge 5}",
+					"name": "爆炸箭矢 {@recharge 5}",
+					"entries": [
+						"橡木投射机向自身100尺内的一个点发射爆炸物。目标点20尺内的每个生物受到14（{@damage 4d6}）火焰伤害加上14（{@damage 4d6}）力场伤害。若成功通过{@dc 14}的敏捷豁免检定，则两种伤害均减半。"
+					]
+				}
+			],
+			"legendaryGroup": {
+				"ENG_name": "Example",
+				"name": "范例",
+				"source": "GiddyCreature"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GiddyCreature/w9nTza9.png"
+			},
+			"traitTags": [
+				"不变形态",
+				"魔法抗性"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CS",
+				"G"
+			],
+			"damageTags": [
+				"F",
+				"O",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"conditionInflict": [
+				"受擒"
+			],
+			"savingThrowForced": [
+				"敏捷"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GiddyCreature/w9nTza9.png"
+						},
+						"width": 280,
+						"height": 280
+					}
+				],
+				"entries": [
+					"这不是普通的弩炮，而是一个半智能构装体，能够进行远程打击。它发射的弩失可以撕裂血肉、摧毁护甲、将敌人拖向陷阱或近战时械。"
+				]
+			}
+		},
+		{
+			"ENG_name": "Oaken Stub, Type 1",
+			"name": "橡木残桩，类型1",
+			"source": "GiddyCreature",
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"token": {
+				"ENG_name": "Oaken Bolter",
+				"name": "橡木投射机",
+				"source": "MTF"
+			}
+		},
+		{
+			"ENG_name": "Oaken Stub, Type 2",
+			"name": "橡木残桩，类型2",
+			"source": "GiddyCreature",
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GiddyCreature/w9nTza9.png"
+			}
+		}
+	],
+	"legendaryGroup": [
+		{
+			"ENG_name": "Example",
+			"name": "范例",
+			"source": "GiddyCreature",
+			"lairActions": [
+				"在先攻值20（先攻数值相同则后手）时，橡木投射机可以执行一个巢穴动作来造成以下效应之一：它不能连续两回合使用相同的效应：",
+				{
+					"type": "list",
+					"items": [
+						"一个巢穴动作"
+					]
+				}
+			],
+			"regionalEffects": [
+				"包含橡木投射机巢穴的区域被其魔法扭曲，产生以下一个或多个效应：",
+				{
+					"type": "list",
+					"items": [
+						"区域效应"
+					]
+				},
+				"如果橡木投射机被摧毁，这些效应会在1d10天内逐渐消失。"
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyCult",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "b09a295194"
+	},
+	"cult": [
+		{
+			"ENG_name": "Cult of the True Flame",
+			"name": "真实火焰邪教",
+			"source": "GiddyCult",
+			"entries": [
+				{
+					"ENG_name": "Soulflame",
+					"name": "魂焰",
+					"type": "entries",
+					"entries": [
+						"邪教徒被魔法火焰点燃。在接下来的1分钟内，他们获得以下好处：",
+						{
+							"type": "list",
+							"items": [
+								"它们免疫火焰伤害和受擒状态。",
+								"他们的近战攻击造成额外7（{@dice 2d6}）火焰伤害。",
+								"任何在邪教徒10尺内开始其回合的生物受到7（{@dice 2d6}）火焰伤害。"
+							]
+						},
+						"如果邪教徒死亡或在持续时间结束时，该邪教徒及其携带的任何装备将被火焰吞噬并化为灰烬。"
+					]
+				}
+			]
+		}
+	]
+}

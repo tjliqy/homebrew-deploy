@@ -1,0 +1,31 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyHazard",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1537874753,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "af6c243e11"
+	},
+	"hazard": [
+		{
+			"ENG_name": "Quicksand",
+			"name": "流沙",
+			"source": "GiddyHazard",
+			"entries": [
+				"一种自然现象，流沙就像普通的沙子，但被武器化了。任何不幸漫游进流沙水池的生物会被束缚。如果该生物有可抓住的东西来将自己拉出，则可以使用一个动作进行DC 10力量（运动）检定。成功时，他们将自己拉出自由，并且必须消耗移动来离开流沙。另一个生物可以代替将被困生物拉出，前提是他们自己没有卡在流沙中。这样做的DC相同。",
+				"如果一个生物精通自然中最致命沙子种类的方式，他们可以选择倒地以漂浮在流沙上。如果他们这样做，他们将不再被束缚，并且可以在流沙中移动，前提是他们保持倒地状态。处于倒地状态时，在流沙中每移动1尺需消耗5尺的移动。"
+			]
+		}
+	]
+}
