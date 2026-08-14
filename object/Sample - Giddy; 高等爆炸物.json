@@ -1,0 +1,42 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyObject",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "41afc68b1b"
+	},
+	"object": [
+		{
+			"ENG_name": "High Explosives",
+			"name": "高等爆炸物",
+			"source": "GiddyObject",
+			"size": [
+				"S"
+			],
+			"objectType": "SW",
+			"ac": 15,
+			"hp": 3,
+			"immune": [
+				"毒素",
+				"心灵"
+			],
+			"entries": [
+				"极不稳定且极其危险，高等爆炸物将魔法和化学物质结合在一个密封的容器中，设计为由不幸的操作员直接安放。触发机制各不相同，从通过魔法命令远程引爆，到小型构装体携带火焰，再到简单地向安放爆炸物的粗略区域投掷火球。",
+				"当被引爆时，爆炸物25英尺半径内的任何生物或物件必须进行一次敏捷豁免检定。目标在豁免失败时受到12d6力场伤害加6d6火焰伤害，豁免成功则只受一半伤害。此外，半径内的任何其他高等爆炸物也会被引爆。",
+				"由于将如此强力的武器塞入微型包装（通常使用最廉价的可用资源）所固有的不稳定性，任何重击通常足以引爆炸药，包括掉落爆炸物或作为攻击的一部分击中它们。根据DM的判断，应投掷一个d6。若结果为偶数，爆炸物不会对冲击产生反应，如果冲击来自攻击，甚至可能变得无用。若结果为奇数，爆炸物会爆炸。"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyLanguage",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "265d37d2c6"
+	},
+	"language": [
+		{
+			"ENG_name": "Semaphore",
+			"name": "旗语",
+			"source": "GiddyLanguage",
+			"page": 0,
+			"type": "secret",
+			"entries": [
+				"记得在消息前加上\"GNU\"。"
+			]
+		}
+	]
+}

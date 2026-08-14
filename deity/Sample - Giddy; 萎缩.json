@@ -1,0 +1,37 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyDeity",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "27265ac435"
+	},
+	"deity": [
+		{
+			"ENG_name": "The Hunger",
+			"name": "饥渴",
+			"source": "GiddyDeity",
+			"pantheon": "异界生物",
+			"alignment": [
+				"N"
+			],
+			"title": "衰败之物",
+			"symbol": "黑底上的灰点",
+			"customProperties": {
+				"Domains": "（这将覆盖领域的显示文本，并可包含{@i @tags}。主要的\"领域\"属性用于列表排序和筛选，因此应仅包含纯文本。）",
+				"Typical Worshipers": "在异怪所散发的形而上的影响力范围内度过{@dice 1d6}天的生物"
+			}
+		}
+	]
+}

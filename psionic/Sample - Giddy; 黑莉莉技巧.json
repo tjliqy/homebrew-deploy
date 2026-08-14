@@ -1,0 +1,55 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyPsionic",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "28a5ba9a07"
+	},
+	"psionic": [
+		{
+			"ENG_name": "Mastery of Mastery",
+			"name": "精通的精通",
+			"source": "GiddyPsionic",
+			"type": "D",
+			"order": "觉醒",
+			"entries": [
+				"你与自身对齐。当你学习此灵术时，从其他灵术中选择至多五个需要花费灵力点来激活效应的效果。你可以如同这些效果属于此灵术般激活其中任意效果，但必须额外支付一点灵力点才能这样做。这额外的灵力点不计入为确定激活效应而花费的点数。"
+			],
+			"focus": "当专注于此纪律时，如果你在秘术师职业中拥有11个或更多等级，你的灵力限制增加1点。",
+			"modes": [
+				{
+					"ENG_name": "Masterful Activation",
+					"name": "大师级激活效应",
+					"cost": {
+						"min": 1,
+						"max": 8
+					},
+					"entries": [
+						"你激活一个学习此纪律时选择的效应。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Predict",
+			"name": "预知",
+			"source": "GiddyPsionic",
+			"type": "T",
+			"entries": [
+				"作为附赠动作，你指定一个你能看见的120尺内的生物为目标。目标必须成功通过一次智力豁免检定，否则其在本回合内进行的下一次豁免检定将受到-2减值。"
+			]
+		}
+	]
+}

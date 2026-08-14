@@ -1,0 +1,73 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyRecipe",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "5ff5497b2b"
+	},
+	"recipe": [
+		{
+			"ENG_name": "Toast Sandwich",
+			"name": "吐司三明治",
+			"source": "GiddyRecipe",
+			"allergenGroups": [
+				"芹菜",
+				"麸质",
+				"甲壳类",
+				"鸡蛋",
+				"鱼",
+				"羽扇豆",
+				"牛奶",
+				"贝类",
+				"芥末",
+				"坚果",
+				"花生",
+				"芝麻",
+				"大豆",
+				"亚硫酸盐"
+			],
+			"makes": "一份三明治",
+			"ingredients": [
+				{
+					"ENG_name": "Bread",
+					"name": "面包",
+					"type": "entries",
+					"entries": [
+						"2片面包"
+					]
+				},
+				{
+					"ENG_name": "Filling",
+					"name": "馅料",
+					"type": "entries",
+					"entries": [
+						"1片面包",
+						"1 黄油"
+					]
+				}
+			],
+			"instructions": [
+				"将馅料烤熟，然后在两面涂抹黄油。",
+				"将馅料夹在面包之间。根据口味加入盐和胡椒。",
+				"盛于板甲上，或立即食用。"
+			],
+			"fluff": {
+				"entries": [
+					"吐司三明治是一种用两片面包制成的三明治，其中夹心是一片薄薄的烤面包片，可以大量涂上黄油。一份1861年的食谱说要按口味添加盐和胡椒。"
+				]
+			}
+		}
+	]
+}

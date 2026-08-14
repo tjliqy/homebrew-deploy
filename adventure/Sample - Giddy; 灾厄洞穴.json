@@ -1,0 +1,79 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyAdventure",
+				"abbreviation": "Brew",
+				"full": "Sample Adventure",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1734389822,
+		"_dateLastModifiedHash": "1ae66889f5"
+	},
+	"adventure": [
+		{
+			"ENG_name": "Caverns of Catastrophe",
+			"name": "灾厄洞穴",
+			"id": "Giddy-1",
+			"source": "GiddyAdventure",
+			"group": "other",
+			"published": "2018-07-05",
+			"storyline": "结束",
+			"level": {
+				"start": 1,
+				"end": 1
+			},
+			"contents": [
+				{
+					"ENG_name": "The Adventure",
+					"name": "冒险",
+					"headers": [
+						"简介",
+						"故事梗概"
+					]
+				}
+			]
+		}
+	],
+	"adventureData": [
+		{
+			"id": "Giddy-1",
+			"source": "GiddyAdventure",
+			"data": [
+				{
+					"ENG_name": "The Adventure",
+					"name": "冒险",
+					"type": "section",
+					"entries": [
+						{
+							"ENG_name": "Introduction",
+							"name": "简介",
+							"type": "entries",
+							"entries": [
+								"最初发表于1967年，《灾难洞穴》讲述了一群角色（或当时所称的演员）成为一系列悲剧事件受害者的故事。尽管在出版时代不受欢迎，但在随后的几十年里，它因是有史以来最残酷诚实的冒险之一而声名狼藉。"
+							],
+							"id": "001"
+						},
+						{
+							"ENG_name": "Story Overview",
+							"name": "故事梗概",
+							"type": "entries",
+							"entries": [
+								"投石落下，全员死亡。"
+							],
+							"id": "002"
+						}
+					],
+					"id": "000"
+				}
+			]
+		}
+	]
+}

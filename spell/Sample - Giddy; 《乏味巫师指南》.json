@@ -1,0 +1,63 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddySpellCopy",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"dependencies": {
+			"spell": [
+				"PHB"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "d2201d91fb"
+	},
+	"spell": [
+		{
+			"ENG_name": "Iceball",
+			"name": "冰球术",
+			"source": "GiddySpellCopy",
+			"_copy": {
+				"ENG_name": "Fireball",
+				"name": "火球术",
+				"source": "PHB"
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一把碾碎的松树针刺"
+			},
+			"entries": [
+				"一块闪亮的碎晶从你伸出的手指射向你于射程内指定的一点，然后伴随着响亮的噼啪声绽放成冰霜爆炸。每个位于以该点为中心半径20尺球状区域内的生物必须进行一次敏捷豁免检定。目标在豁免失败时受到{@damage 8d6}寒冷伤害，豁免成功则只受一半伤害。",
+				"冰霜蔓延至对角。它会冻结区域内未在密封容器中的液体。"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"foundrySystem": {
+				"target.value": 20,
+				"target.units": "ft"
+			}
+		}
+	],
+	"foundrySpell": [
+		{
+			"ENG_name": "Iceball",
+			"name": "冰球术",
+			"source": "GiddySpellCopy",
+			"system": {
+				"target.type": "sphere"
+			}
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyVariant",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"dependencies": {
+			"magicvariant": [
+				"DMG"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1752143166,
+		"_dateLastModifiedHash": "d93a70e459"
+	},
+	"magicvariant": [
+		{
+			"ENG_name": "Ice-Forged Weapon",
+			"name": "冰铸武器",
+			"source": "GiddyVariant",
+			"_copy": {
+				"ENG_name": "+1 Weapon",
+				"name": "+1 武器",
+				"source": "DMG",
+				"_mod": {
+					"inherits.entries": [
+						{
+							"mode": "appendArr",
+							"items": [
+								"此武器在暖和环境（≥ 10°C）中会失去其魔法词条。"
+							]
+						}
+					],
+					"inherits.namePrefix": {
+						"mode": "setProp",
+						"value": "冰铸+1 "
+					},
+					"inherits.source": {
+						"mode": "setProp",
+						"value": "眩晕变体"
+					}
+				}
+			}
+		},
+		{
+			"ENG_name": "Weapon +4",
+			"name": "武器 +4",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"ENG_name": "Net",
+				"name": "捕网"
+			},
+			"inherits": {
+				"nameSuffix": " +4",
+				"source": "GiddyVariant",
+				"page": 4,
+				"rarity": "legendary",
+				"bonusWeapon": "+4",
+				"entries": [
+					"使用这把武器进行攻击和伤害判定时，你有{=bonusWeapon}的加值。"
+				]
+			}
+		}
+	]
+}

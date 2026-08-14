@@ -1,0 +1,117 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyRace",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "807e97f1b4"
+	},
+	"race": [
+		{
+			"ENG_name": "Awakened Skeleton",
+			"name": "觉醒骷髅",
+			"source": "GiddyRace",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": -4,
+					"dex": 2,
+					"wis": 1
+				},
+				{
+					"cha": -4,
+					"dex": 1,
+					"wis": 2
+				},
+				{
+					"cha": -4,
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"wis"
+							],
+							"weights": [
+								2,
+								1,
+								-1,
+								-2
+							]
+						}
+					}
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"修整强化"
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"resist": [
+				"斩击",
+				"穿刺"
+			],
+			"immune": [
+				"毒素"
+			],
+			"entries": [
+				{
+					"ENG_name": "Skeletal",
+					"name": "骷髅",
+					"type": "entries",
+					"entries": [
+						"你对钝击伤害易伤，但对挥砍和穿刺伤害具有抗性。"
+					]
+				},
+				{
+					"ENG_name": "Undead Nature",
+					"name": "不死本质",
+					"type": "entries",
+					"entries": [
+						"你免疫毒素伤害和力竭，并且你不会中毒。你不需要风、进食、饮品或睡眠。"
+					]
+				},
+				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
+					"entries": [
+						"佩戴这副暗色护目镜期间，你具有60尺黑暗视觉。如果你已经有黑暗视觉，则你的黑暗视觉范围扩大60尺。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"entries": [
+						"被赋予了超越死亡也能口吐芬芳的能力，你可以说、读、写通用语。"
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"entries": [
+					"需要一些组装。"
+				]
+			}
+		}
+	]
+}
