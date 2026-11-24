@@ -47,16 +47,16 @@
 		],
 		"spellSchools": {
 			"BM": {
-				"full": "Biomancy",
-				"short": "Bio.",
+				"full": "生体学派",
+				"short": "生体",
 				"color": "93c572"
 			}
 		},
 		"edition": "classic",
 		"status": "wip",
 		"dateAdded": 1782136957,
-		"dateLastModified": 1793765613,
-		"_dateLastModifiedHash": "9b3380f6fd"
+		"dateLastModified": 1795494537,
+		"_dateLastModifiedHash": "e9a2a8e031"
 	},
 	"spell": [
 		{
@@ -1549,8 +1549,8 @@
 			"type": {
 				"type": "elemental",
 				"tags": [
-					"Bespoke Companion",
-					"Crafted Familiar"
+					"定制伙伴",
+					"自制魔宠"
 				]
 			},
 			"alignment": [
